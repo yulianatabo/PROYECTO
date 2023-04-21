@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #66e99c; 
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #66e99c;
+}
+
+header img {
+    margin: 30px;
+    width: 400px;
+    border: 3px solid black;
+}
+
+header h2{
+    font-family:initial;
+    font-size: 70px;
+    color:rgb(17, 133, 62);
+
+}
+
+.btn {
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+    color: #000;
+    background: rgb(6, 219, 17);
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size:20px;
+    margin: 3px solid black  ;
+}
+
+/*Cuerpo*/
+
+#cuerpo {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.navegacion{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(52, 131, 104);
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+
+}
+
+.navegacion .nav a {
+    margin-right: 50px;
+    font-family: monospace;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration:none;
+    color: #000;
+
+}
+.navegacion .nav a:hover{
+    color: rgb(76, 0, 255);
+
+}
+
+.navegacion h1{
+    color: rgb(3, 78, 26);
+    font-size: 30px;
+    font-family: arial;
+    text-transform: uppercase;
+    margin-left: 20px;
+    
+}
+
+.navegacion img{
+    margin: 50px;
+    width: 80px;
+}
+
+.objetivos h2{
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(14, 82, 82);
+}
+
+.objetivos h3{
+    font-family: Verdana;
+    font-size: 20px;
+    margin-left: 20px;
+    color:rgb(15, 94, 19)
+}
+
+#cuerpo .contenedor {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+#cuerpo .contenedor .caja1 {
+    width: 50%;
+    border-right: 5px solid darkcyan;
+    padding: 10px;
+
+}
+
+#cuerpo .contenedor .caja2{
+    width: 50%;
+    padding: 10px;
+}
+
+/*Cuerpo*/
+
+#cuerpo2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.navegacion{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(52, 131, 104);
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.navegacion .nav a {
+    margin-right: 50px;
+    font-family: monospace;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration:none;
+    color: #000;
+
+}
+.navegacion .nav a:hover{
+    color: rgb(0, 255, 136);
+
+}
+
+.contenedor .caja1 img{
+    width: 70%;   
+    margin-top:30px;
+}
+
+.contenedor .caja2 img{
+    width: 45%;
+    margin-top: 30px;
+}
+
+/*empieza lo del equipo*/
+
+.navegacion{
+    border-radius: 80px;
+}
+
+.imagenes{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.equipo h2{
+    font-family: serif;
+    font-size: 25px;
+    color: forestgreen;
+}
+
+.programadoras h3{
+    font-family: fantasy;
+    font-size: 20px;
+    color: rgb(2, 72, 104);
+}
+
+
+.programadoras img{
+    width:20%;
+    margin-top: 20px;
+   border:1px solid black ;
+}
+
+.programadoras p{
+    margin-top: 10px;
+}
+
+
+.navegation {
+    display: none;
+}
+
+header .navegation.active {
+    width: 100%;
+    height: calc(100% - 68px);
+    position: fixed;
+    top: 68px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+}
+
+.izquierda{
+    border: 1px solid black;
+}
+
+.derecha {
+    border: 1px solid black;
+}
+
+.digitadoras{
+    border: 1px solid black;
+    display: flex;
+
+}
+
+.izquierda .programadoras{
+    border-right: 1px solid black;
+}
+
+.container img{
+    width: 100px;
+    font-size: 20px;
+}
+
+.container{
+    height: auto;
+}
+
+.boton2{
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+    color: #000;
+    background: rgb(6, 219, 17);
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size:20px;
+}
+
+@media only screen and(min-width:300px){
+    body{
+        background-color: #66e99c;
+    }
+
+    header {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:50%;
+        height: 50vh;
+        background: #66e99c;
+        padding: 30px;
+    }
+
+    header img {
+        margin: 40px;
+        width: 100px;
+        border: 1px solid black;
+    }
+    
+    header h2{
+        font-family:initial;
+        font-size: 10px;
+        color:rgb(4, 78, 33);
+        padding: 10px;
+        margin: 30px;
+    }
+
+    .btn {
+        position: absolute;
+        bottom: 20px;
+        right: 50px;
+        color: #000;
+        background: rgb(6, 219, 17);
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 15px;
+        font-size:10px;
+    }
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
